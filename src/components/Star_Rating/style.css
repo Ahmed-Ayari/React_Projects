@@ -1,0 +1,11 @@
+.sr_wrapper{
+  flex-direction: row;
+}
+
+.active {
+  color: rgb(251, 255, 0);
+}
+
+.inactive {
+  color: #000;
+}

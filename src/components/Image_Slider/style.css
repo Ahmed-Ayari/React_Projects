@@ -1,0 +1,54 @@
+.arrow{
+    font-size: 30px;
+    position: absolute;
+    color: #fff;
+    filter: drop-shadow(0px 0px 5px #555);
+    cursor: pointer;
+}
+
+.arrow_left{
+    left: 1rem;
+}
+
+.arrow_right{
+    right: 1rem;
+}
+
+.current_indicator{
+    border-radius: 50%;
+    height: 15px;
+    width: 15px;
+    background-color: #ffffff;
+    border: none;
+    outline: none;
+    margin: 0 0.2rem;
+    cursor: pointer;
+}
+
+.inactive_indicator{
+    background-color: gray;
+}
+
+.circle_indicator{
+    position: absolute;
+    bottom: 1rem;
+}
+
+.current_image{
+    height: 100%;
+    width: 100%;
+    border-radius: 5%;
+}
+
+.hide_image{
+    display: none;
+}
+
+.is_container{
+    height: 400px;
+    width: 600px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}

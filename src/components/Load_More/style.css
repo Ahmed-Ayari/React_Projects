@@ -1,0 +1,26 @@
+.item_container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.lm_container{
+    height: auto;
+}
+
+.product{
+    padding: 20px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.button{
+    margin-top: 20px;
+}
+
+.button button{
+    font-size: 1em;
+    padding: 10px 20px;
+}

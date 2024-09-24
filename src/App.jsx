@@ -5,9 +5,10 @@ import StarRating from "./components/Star_Rating/StarRating";
 import ImageSlider from "./components/Image_Slider/Image_Slider";
 import LoadMore from "./components/Load_More/LoadMore";
 import NavMenu from "./components/Nav_Menu/Nav_Menu";
-import menus from "./components/Nav_Menu/data"
+import menus from "./components/Nav_Menu/data";
 import QrGenerator from "./components/Qr_Code_Generator/QrGenerator";
-
+import DarkMode from "./components/Dark_Mode/DarkMode";
+import ScrollIndicator from "./components/Scroll_Indicator/Scroll_Indicator";
 
 function App() {
   return (
@@ -19,6 +20,8 @@ function App() {
       <LoadMore />
       <NavMenu menus={menus}/>
       <QrGenerator/>
+      <DarkMode />
+      <ScrollIndicator />
     </>
   );
 }

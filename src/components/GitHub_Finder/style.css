@@ -1,0 +1,52 @@
+.gf_container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.input{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    justify-content: center;
+}
+
+.input input{
+    font-size: 1.2em;
+}
+
+.input button{
+    font-size: 1.2em;
+    background-color: black;
+    color: aliceblue;
+}
+
+.user{
+    width: 500px;
+}
+
+.user .div{
+    display: flex;
+    gap: 40px;
+    border: 1px solid rgb(0, 0, 0);
+    width: 100%;
+    padding: 4px;
+    justify-content: center;
+    border-radius: 5px;
+    font-size: 1.2em;
+    font-weight:bold;
+}
+
+.div div{
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.user div img{
+    aspect-ratio: 1/1;
+    height: 200px;
+    border-radius: 50%;
+    border: 1px solid;
+    margin: 5px;
+}

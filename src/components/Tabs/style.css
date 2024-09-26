@@ -1,0 +1,32 @@
+.heading {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  gap: 20px;
+}
+
+.tab-item {
+  display: inline-flex;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px 15px;
+  cursor: pointer;
+  border: none;
+  color: aliceblue;
+  background-color: rgb(182, 135, 78);
+}
+
+.tabs_active {
+  border-color: black;
+  background-color: rgb(148, 82, 2);
+  color: #fff;
+}
+
+.content{
+    padding: 20px 10px;
+    height: 200px;
+    overflow: auto;
+    text-align: center;
+    font-size: 2em;
+}

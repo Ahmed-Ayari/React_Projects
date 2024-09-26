@@ -1,0 +1,58 @@
+.modal {
+  position: fixed;
+  z-index: 1;
+  padding-top: 150px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(168, 188, 190);
+  animation: modal 0.5s;
+}
+
+.modal-content {
+  position: relative;
+  background-color: #e9e9e9;
+  margin: auto;
+  padding: 0;
+  border: 1px solid rgb(0, 0, 0);
+  width: 80%;
+  height: 50%;
+}
+
+.close_modal {
+  cursor: pointer;
+  font-size: 2em;
+  font-weight: bold;
+  float: right;
+}
+
+.header {
+  background-color: rgb(102, 133, 133);
+  padding: 4px 15px;
+  border-bottom: 1px solid blue;
+}
+
+.body {
+  padding: 2px 15px;
+  height: 85%;
+  font-size: 1.5em;
+  margin-top: 10px;
+}
+
+.footer {
+  padding: 2px 15px;
+  background-color: rgb(102, 133, 133);
+}
+
+@keyframes modal {
+  from {
+    top: -200px;
+    opacity: 0;
+  }
+  to {
+    top: 0;
+    opacity: 1;
+  }
+}

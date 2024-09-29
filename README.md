@@ -18,7 +18,7 @@ This repository contains a collection of React projects inspired by FreeCodeCamp
    - Description: Search and view GitHub profiles using GitHub API.
    - Technologies: React, GitHub API
 
-Etc... You can check the src/components folder for the full list of projects.
+ Etc... You can check the src/components folder for the full list of projects.
 
 ## Installation and Setup
 

@@ -13,6 +13,9 @@ import TabTest from "./components/Tabs/tab_test";
 import ModalTest from "./components/Modal/Modal_test";
 import GitHubFinder from "./components/GitHub_Finder/GithubFinder";
 import SearchAutoComplete from "./components/Search_AutoComplete/Search_Auto_Complete";
+import TicTacToe from "./components/TicTacToe/TicTacToe";
+import UseFetchTest from "./components/useFetch/index"
+import UseOutsideClick from "./components/useOutsideClick/index";
 
 function App() {
   return (
@@ -34,6 +37,9 @@ function App() {
       <ModalTest />
       <GitHubFinder />
       <SearchAutoComplete />
+      <TicTacToe />
+      <UseFetchTest />
+      <UseOutsideClick />
     </>
   );
 }
